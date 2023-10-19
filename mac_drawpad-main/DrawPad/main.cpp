@@ -3,7 +3,6 @@
 
 void DrawMain()
 {
-    Clear(kColorBlack);
-
+    Clear(kColorWhite);
+    FillCircle(0, 0, 100, kColorRed);
 }
-
